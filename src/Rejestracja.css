@@ -1,0 +1,217 @@
+.front__tlo {
+    position: absolute;
+    display: flex;
+    left:0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+.reg__blok {
+    box-sizing: border-box;
+    position: absolute;
+    width: 428px;
+    height: 980px;
+    left: 1012px;
+    top: 0px;
+
+    background: #EEECEC;
+}
+
+.front__logo {
+    position: absolute;
+    width: 244px;
+    height: 139px;
+    left: 90px;
+    top: 37px;
+}
+
+.name > p {
+    position: absolute;
+    width: 47px;
+    height: 29px;
+    left: 181px;
+    top: 215px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.imie_input {
+    position: absolute;
+    width: 197px;
+    height: 41px;
+    left: 106px;
+    top: 275px;
+
+    background: rgba(36, 0, 255, 0.51);
+    border-radius: 20px;
+}
+
+.surname > p {
+    position: absolute;
+    width: 110px;
+    height: 29px;
+    left: 150px;
+    top: 305px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.nazwisko_input {
+    position: absolute;
+    width: 262px;
+    height: 41px;
+    left: 65px;
+    top: 366px;
+
+    background: rgba(36, 0, 255, 0.51);
+    border-radius: 20px;
+}
+
+.email >p {
+    position: absolute;
+    width: 144px;
+    height: 29px;
+    left: 124px;
+    top: 397px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.email_input {
+    position: absolute;
+    width: 339px;
+    height: 41px;
+    left: 26px;
+    top: 457px;
+
+    background: rgba(36, 0, 255, 0.51);
+    border-radius: 20px;
+}
+
+.password1 > p {
+    position: absolute;
+    width: 64px;
+    height: 58px;
+    left: 164px;
+    top: 485px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.password1_input {
+    position: absolute;
+    width: 262px;
+    height: 41px;
+    left: 64px;
+    top: 545px;
+
+    background: rgba(36, 0, 255, 0.51);
+    border-radius: 20px;
+}
+
+.password2 > p {
+    position: absolute;
+    width: 161px;
+    height: 29px;
+    left: 111px;
+    top: 573px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.password2_input {
+    position: absolute;
+    width: 262px;
+    height: 41px;
+    left: 65px;
+    top: 633px;
+
+    background: rgba(36, 0, 255, 0.51);
+    border-radius: 20px;
+}
+
+.check {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: -140px;
+    top: 724px;
+
+}
+
+.checkbox > p {
+    position: absolute;
+    width: 231px;
+    height: 29px;
+    left: 90px;
+    top: 700px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.reg {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 60px;
+    top: 776px;
+
+    background: #2407df82;
+    border-radius: 20px;
+    color: white;
+    font-size: 26px;
+}
+.reg:hover{
+    background: #1f05c782;
+}

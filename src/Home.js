@@ -2,7 +2,9 @@ import { useState, useEffect } from 'react';
 import PlacesList from './PlacesList';
 import './Home.css'
 
+
 const Home = () => {
+
 
     const [mieszkania, setPlaces] = useState(null);
 
