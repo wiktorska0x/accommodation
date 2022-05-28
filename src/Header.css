@@ -4,22 +4,30 @@
     align-items: center;
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color: #002f34;
     z-index: 100;
     width: 100%;
-  }
-  .logo {
-    background-color: white;
-    border-color: white;
-  }
-  
-  .header__logo {
+    font-family: inherit;
+    font-weight: 700;
+    color: white;
+}
+
+.logo {
+    background-color: #002f34;
+    border-color: #002f34;
+}
+
+h1 {
+    color: white;
+}
+
+.header__logo {
     object-fit: contain;
     height: 100px;
     margin-left: 20px;
-  }
+}
 
-  .header__center {
+.header__center {
     display: flex;
     flex: 1;
     align-items: center;
@@ -28,48 +36,76 @@
     height: 30px;
     border: 1px solid lightgray;
     border-radius: 999px;
-  }
-  
-  .header__center > input {
-    border: none;
-    padding: 10px;
-    outline-width: 0;
-    /* width: 250px; */
-  }
+}
 
-  .header__right {
+    .header__center > input {
+        border: none;
+        padding: 10px;
+        outline-width: 0;
+        /* width: 250px; */
+    }
+
+.header__right {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 25vw;
     margin-right: 50px;
-  }
+}
 
 
 
-  .search__button {
+.search__button {
     border-radius: 15px;
     border-color: black;
     margin-left: 20px;
-    background-color: bisque;
-    color: bisque;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
 
-  }
+    .search__button:hover {
+        //background-color: rgb(237, 149, 41);
+        //color: rgb(237, 149, 41);
+        border: 2px white solid;
+        animation-name: animacja;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
 
-  .search__button:hover {
-    background-color: rgb(237, 149, 41);
-    color: rgb(237, 149, 41);
-    border-color: black;
-  }
-
-  .log__button{
+.log__button {
     border: none;
-    width: 100px;
+    width: 120px;
     height: 30px;
     margin-left: 20px;
-    background-color: bisque;
-  }
+    background-color: #f2f4f5;
+    border: 2px solid white;
+    font-weight: bold;
+}
 
-  .log__button:hover {
-    background-color: rgb(237, 149, 41);
-  }
+    .log__button:hover {
+        //background-color: rgb(237, 149, 41);
+        animation-name: animacja;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        //animation-direction: reverse;
+    }
+
+    .log__button::after {
+        animation-name: animacja2;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+
+@keyframes animacja {
+    from {
+        background-color: #f2f4f5;
+        color: black;
+    }
+
+    to {
+        background-color: #002f34;
+        color: white;
+    }
+}

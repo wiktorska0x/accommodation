@@ -8,45 +8,49 @@ function Rejestracja() {
 
     const history = useHistory();
     const home = () => {
-       history.push("/");
+        history.push("/");
     }
 
     return (
         <div className='front'>
-            <img 
-            src={tlo}
-            className='front__tlo' 
-            alt=''/>
+            <img
+                src={tlo}
+                className='front__tlo'
+                alt='' />
 
-             <div className='reg__blok'>
+            <div className='reg__blok'>
                 <form>
 
                     <div className='name'>
-                        <p>Imię</p>
-                        <input name="imie" className='imie_input'></input>
+                        <p>Rodzaj</p>
+                        <a class="active" href="#home">Home</a>
+                        <a href="#news">News</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#about">About</a>
+                        <input name="imie" className='imie_input' placeholder="Imie.."></input>
                     </div>
 
                     <div className='surname'>
                         <p>Nazwisko</p>
-                        <input name="nazwisko" className='nazwisko_input'></input>
+                        <input name="nazwisko" className='nazwisko_input' placeholder="Nazwisko.."></input>
                     </div>
 
                     <div className='email'>
                         <p>Adres e-mail</p>
-                        <input name="email" className='email_input'></input>
+                        <input name="email" className='email_input' placeholder="Email.."></input>
                     </div>
 
                     <div className='password1'>
                         <p>Hasło</p>
-                        <input name="password1" className='password1_input'></input>
+                        <input name="password1" className='password1_input' placeholder="Haslo.."></input>
                     </div>
 
                     <div className='password2'>
                         <p>Powtórz hasło</p>
-                        <input name="password2" className='password2_input'></input>
+                        <input name="password2" className='password2_input' placeholder="Powtorz haslo.."></input>
                     </div>
 
-                    <button type="submit" className='reg'>Zarejestruj się</button>
+                    <button type="submit" className='reg'>Dodaj mieszkanie</button>
 
                 </form>
 

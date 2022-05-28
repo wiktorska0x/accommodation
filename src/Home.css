@@ -1,15 +1,12 @@
-.photo
-{
+.photo {
 	height: 300px;
-    width: 250px;
+	width: 250px;
 	transition: all 1s ease-in-out;
 	opacity: 1.0;
-
 }
 
-.photo:hover
-{
-	transform: scale(0.95);
-	-webkit-transform: scale(0.95);
-	-ms-transform: scale(0.95);
-}
+	.photo:hover {
+		transform: scale(0.95);
+		-webkit-transform: scale(0.95);
+		-ms-transform: scale(0.95);
+	}

@@ -24,11 +24,11 @@ const Home = () => {
 
     }, []);
 
-    return ( 
+    return (
         <div className="home">
             {mieszkania && <PlacesList mieszkania={mieszkania} handleDelete={handleDelete} />}
         </div>
     );
 }
- 
+
 export default Home;

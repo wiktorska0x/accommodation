@@ -9,9 +9,8 @@
     width: 100%;
 }
 
-.footer > p {
-    padding: 5px;
-    font-size: 14px;
-    word-spacing: 2px;
-}
-
+    .footer > p {
+        padding: 5px;
+        font-size: 14px;
+        word-spacing: 2px;
+    }
