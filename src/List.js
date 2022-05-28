@@ -1,5 +1,4 @@
-
-import data from "./data/dbm.json"
+import data from "./data_search/dbm.json"
 import './List.css';
 
 function List(props) {
@@ -22,7 +21,7 @@ function List(props) {
             <div key={item.id}>
                 <p><b>{item.tytul}</b></p>
                 <img src={item.img} className="photo" alt='img'></img> 
-                <p>{item.lokalizacja}</p>
+                <p>{item.lokalizacja} <i>{item.cena} zł / doba</i></p>
             </div>
         ))}
         </ul>

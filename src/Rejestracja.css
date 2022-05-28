@@ -51,6 +51,7 @@
     top: 275px;
     background-color: #dedbda;
     border-radius: 20px;
+    text-align: center;
 }
 
 .surname > p {
@@ -79,6 +80,7 @@
     top: 366px;
     background-color: #dedbda;
     border-radius: 20px;
+    text-align: center;
 }
 
 .email > p {
@@ -106,9 +108,10 @@
     top: 457px;
     background-color: #dedbda;
     border-radius: 20px;
+    text-align: center;
 }
 
-.password1 > p {
+.password > p {
     position: absolute;
     width: 64px;
     height: 58px;
@@ -122,7 +125,7 @@
     color: #000000;
 }
 
-.password1_input {
+.password_input {
     position: absolute;
     width: 262px;
     height: 41px;
@@ -130,59 +133,9 @@
     top: 545px;
     background-color: #dedbda;
     border-radius: 20px;
+    text-align: center;
 }
 
-.password2 > p {
-    position: absolute;
-    width: 161px;
-    height: 29px;
-    left: 111px;
-    top: 573px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    /* identical to box height */
-
-
-    color: #000000;
-}
-
-.password2_input {
-    position: absolute;
-    width: 262px;
-    height: 41px;
-    left: 65px;
-    top: 633px;
-    background-color: #dedbda;
-    border-radius: 20px;
-}
-
-.check {
-    position: absolute;
-    width: 33px;
-    height: 33px;
-    left: -140px;
-    top: 724px;
-}
-
-.checkbox > p {
-    position: absolute;
-    width: 231px;
-    height: 29px;
-    left: 90px;
-    top: 700px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    /* identical to box height */
-
-
-    color: #000000;
-}
 
 .reg {
     position: absolute;

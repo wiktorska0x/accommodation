@@ -1,19 +1,61 @@
 {
-    "mieszkania": [
-      {
-        "id": 1,
-        "lokalizacja": "Londyn",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
-        "tytul": "Stay at this spacious Edwardian House",
-        "cena" : "250"
+  "mieszkania": [
+    {
+      "id": 1,
+      "lokalizacja": "Londyn",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
+      "tytul": "Stay at this spacious Edwardian House",
+      "cena": "250"
+    },
+    {
+      "id": 2,
+      "lokalizacja": "Rzym",
+      "img": "https://www.smartertravel.com/uploads/2017/07/Untitled-design-8.jpg",
+      "tytul": "Rome Studio Apartments",
+      "cena": "170"
+    }
+  ],
+  "users": [
+    {
+      "id": "fesfsf",
+      "imie": "Anna",
+      "nazwisko": "Kowalska",
+      "email": "aniakowalska@mail.pl",
+      "password": "ania123"
+    },
+    {
+      "id:": "dafsf",
+      "imie": "Kamil",
+      "nazwisko": "Nowak",
+      "email": "kamilnowak@mail.pl",
+      "password": "kamil321"
+    },
+    {
+      "imie": "jmkdg",
+      "nazwisko": "fdsfs",
+      "params": {
+        "email": "fsdfsfdfs",
+        "password": "fsdfsd"
       },
-      {
-        "id": 2,
-        "lokalizacja": "Rzym",
-        "img": "https://www.smartertravel.com/uploads/2017/07/Untitled-design-8.jpg",
-        "tytul": "Rome Studio Apartments",
-        "cena" : "170"
-      }
-  
-    ]
-  }
+      "id": "N_pTrWy"
+    },
+    {
+      "imie": "jmkdg",
+      "nazwisko": "fdsfs",
+      "params": {
+        "email": "fsdfsfdfs",
+        "password": "fsdfsd"
+      },
+      "id": "YRpxcgA"
+    },
+    {
+      "imie": "Kasia",
+      "nazwisko": "Dąbrowska",
+      "params": {
+        "email": "kasia@onet.pl",
+        "password": "kasiawmot"
+      },
+      "id": "cIn33ZI"
+    }
+  ]
+}

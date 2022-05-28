@@ -1,27 +1,26 @@
-import data from "./data/dbm.json"
+import { useState, useEffect } from 'react';
+import PlacesList from './PlacesList';
 import './Home.css'
-
 
 const Home = () => {
 
+    const [mieszkania, setPlaces] = useState(null);
 
-    const setData = data.filter((el) => {
 
-            return el;
-        }
-        )
-    return (
+    useEffect(() => {
+        fetch('http://localhost:8000/mieszkania')
+            .then(res => {
+                return res.json();
+            })
+            .then(data => {
+                setPlaces(data);
+            });
+
+    }, []);
+
+    return ( 
         <div className="home">
-             <ul>
-            {setData.map((item) => (
-            <div key={item.id}>
-                <p><b>{item.tytul}</b></p>
-                <img src={item.img} className="photo" alt='img'></img> 
-                <p>{item.lokalizacja}</p>
-                <p>{item.cena} zł / doba</p>
-            </div>
-        ))}
-        </ul>
+            {mieszkania && <PlacesList mieszkania={mieszkania} />}
         </div>
     );
 }

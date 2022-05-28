@@ -1,6 +1,5 @@
 import './App.css';
 import Header from './Header';
-import Footer from './Footer';
 import Home from './Home';
 import Rejestracja from './Rejestracja';
 import Search from './Search';
@@ -12,6 +11,8 @@ import {
 } from "react-router-dom";
 
 function App() {
+
+
   return (
     <div className="App">
       
