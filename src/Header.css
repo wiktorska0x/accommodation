@@ -59,8 +59,8 @@ h1 {
 }
 
     .search__button:hover {
-        //background-color: rgb(237, 149, 41);
-        //color: rgb(237, 149, 41);
+        background-color: rgb(237, 149, 41);
+        color: rgb(237, 149, 41);
         border: 2px white solid;
         animation-name: animacja;
         animation-duration: 1s;
@@ -78,11 +78,11 @@ h1 {
 }
 
     .log__button:hover {
-        //background-color: rgb(237, 149, 41);
+        background-color: rgb(237, 149, 41);
         animation-name: animacja;
         animation-duration: 1s;
         animation-fill-mode: forwards;
-        //animation-direction: reverse;
+        animation-direction: reverse;
     }
 
     .log__button::after {

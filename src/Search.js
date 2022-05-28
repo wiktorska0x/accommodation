@@ -1,10 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import List from './List';
 import TextField from "@mui/material/TextField";
 import './Search.css'
 
 
-const Home = () => {
+const Search = () => {
 
 
     const [inputText, setInputText] = useState("");
@@ -30,4 +30,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default Search;

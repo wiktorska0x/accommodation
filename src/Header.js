@@ -28,7 +28,7 @@ function Header() {
             <h1>Accomodation</h1>
 
             <div className='header__center'>
-                <button className='search__button' onCLick={search}>SZUKAJ</button>
+                <button className='search__button' onClick={search}>SZUKAJ</button>
             </div>
 
             <div className='header__right'>
