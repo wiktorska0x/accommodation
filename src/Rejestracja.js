@@ -1,28 +1,19 @@
 import './Rejestracja.css';
-import tlo from './img/tlo.jpg';
-import logo from './img/logo.png';
-import { useHistory } from "react-router-dom";
+
 
 
 function Rejestracja() {
 
-    const history = useHistory();
-    const home = () => {
-        history.push("/");
-    }
+
 
     return (
         <div className='front'>
-            <img
-                src={tlo}
-                className='front__tlo'
-                alt='' />
 
             <div className='reg__blok'>
                 <form>
 
                     <div className='name'>
-                        <p>Rodzaj</p>
+                        <p>Imię</p>
                         <a class="active" href="#home">Home</a>
                         <a href="#news">News</a>
                         <a href="#contact">Contact</a>
@@ -50,13 +41,11 @@ function Rejestracja() {
                         <input name="password2" className='password2_input' placeholder="Powtorz haslo.."></input>
                     </div>
 
-                    <button type="submit" className='reg'>Dodaj mieszkanie</button>
+                    <button type="submit" className='reg'>Zarejestruj się</button>
 
                 </form>
 
-                {/* <button className='logo'><img 
-                src={logo} alt="logo" onClick={home} className="logo_btn"/></button> */}
-
+            
 
             </div>
         </div>

@@ -3,6 +3,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Home from './Home';
 import Rejestracja from './Rejestracja';
+import Search from './Search';
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,9 +20,10 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/Rejestracja" component={Rejestracja} />
-        </Switch> 
+          <Route exact path="/Search" component={Search} />
+        </Switch>
       </Router>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

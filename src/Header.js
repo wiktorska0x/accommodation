@@ -11,7 +11,9 @@ function Header() {
     const main = () => {
         history.push("/")
     }
-
+    const search = () => {
+        history.push("/Search")
+    }
 
     return (
 
@@ -26,8 +28,7 @@ function Header() {
             <h1>Accomodation</h1>
 
             <div className='header__center'>
-                <input type='text' placeholder="Szukaj.." />
-                <button className='search__button'>SZUKAJ</button>
+                <button className='search__button' onCLick={search}>SZUKAJ</button>
             </div>
 
             <div className='header__right'>
