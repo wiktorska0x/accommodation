@@ -1,12 +1,18 @@
-.photo {
-	height: 300px;
-	width: 250px;
-	transition: all 1s ease-in-out;
-	opacity: 1.0;
-}
+	.photo {
+		height: 300px;
+		width: 250px;
+		transition: all 1s ease-in-out;
+		opacity: 1.0;
+	}
 
 	.photo:hover {
 		transform: scale(0.95);
 		-webkit-transform: scale(0.95);
 		-ms-transform: scale(0.95);
 	}
+	.places-list{
+		display: grid;
+		grid-template-columns: auto auto auto;
+		margin: 10px;
+	}
+	

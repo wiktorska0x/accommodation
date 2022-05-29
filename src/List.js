@@ -16,7 +16,7 @@ function List(props) {
     
     return (
 
-        <ul>
+        <div className="places-list">
         {filteredData.map((item) => (
             <div key={item.id}>
                 <p><b>{item.tytul}</b></p>
@@ -24,7 +24,7 @@ function List(props) {
                 <p>{item.lokalizacja} <i>{item.cena} zł / doba</i></p>
             </div>
         ))}
-        </ul>
+        </div>
     )
 }
 

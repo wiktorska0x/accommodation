@@ -13,3 +13,9 @@
 	-webkit-transform: scale(0.95);
 	-ms-transform: scale(0.95);
 }
+
+.places-list{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin: 10px;
+}

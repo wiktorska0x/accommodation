@@ -5,14 +5,46 @@
       "lokalizacja": "Londyn",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU",
       "tytul": "Stay at this spacious Edwardian House",
-      "cena": "250"
+      "cena" : "250"
     },
     {
       "id": 2,
       "lokalizacja": "Rzym",
       "img": "https://www.smartertravel.com/uploads/2017/07/Untitled-design-8.jpg",
       "tytul": "Rome Studio Apartments",
-      "cena": "170"
+      "cena" : "170"
+    },
+  
+    {
+      "id": 3,
+      "lokalizacja": "Paryż",
+      "img": "https://www.elle.pl/media/cache/default_view/uploads/media/default/0002/99/kolorowy-i-luksusowy-hotel-w-paryzu_14.jpeg",
+      "tytul": "ELLE Decoration",
+      "cena" : "260"
+    },
+  
+    {
+      "id": 4,
+      "lokalizacja": "Madryt",
+      "img": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_450,q_auto,w_450/itemimages/89/47/894709_v21.jpeg",
+      "tytul": "Hotel Hotel Eurostars Madrid Tower",
+      "cena" : "190"
+    },
+  
+    {
+      "id": 5,
+      "lokalizacja": "Berlin",
+      "img": "https://foto.hrsstatic.com/fotos/0/2/1280/1280/100/FFFFFF/http%3A%2F%2Ffoto-origin.hrsstatic.com%2Ffoto%2F4%2F1%2F1%2F2%2F%2Fteaser_411208.jpg/ykCsh0RT6Eo%2FWlIdWaKqAw%3D%3D/638%2C425/6/City_Hotel_Berlin_East-Berlin-Single_room_standard-411208.jpg",
+      "tytul": "City Hotel Berlin East w HRS ",
+      "cena" : "180"
+    },
+  
+    {
+      "id": 6,
+      "lokalizacja": "Radom",
+      "img": "https://www.hoteleuropejski.radom.pl/htm/b/pokoje/2os_lux/01_kop888_1.jpg",
+      "tytul": "Hotel Europejski Boutique",
+      "cena" : "300"
     }
   ],
   "users": [
@@ -56,6 +88,15 @@
         "password": "kasiawmot"
       },
       "id": "cIn33ZI"
+    },
+    {
+      "imie": "sff",
+      "nazwisko": "sdfsdf",
+      "params": {
+        "email": "sdfsf",
+        "password": "fsdfs"
+      },
+      "id": "pZHOWZ-"
     }
   ]
 }
