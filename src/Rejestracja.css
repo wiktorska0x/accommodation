@@ -1,4 +1,4 @@
-.front__tlo {
+/* .front__tlo {
     position: absolute;
     display: flex;
     left: 0px;
@@ -36,14 +36,14 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 29px; */
     /* identical to box height */
 
-
+/* 
     color: #000000;
-}
+} */
 
-.imie_input {
+/* .imie_input {
     position: absolute;
     width: 197px;
     height: 41px;
@@ -52,26 +52,26 @@
     background-color: #dedbda;
     border-radius: 20px;
     text-align: center;
-}
+} */
 
-.surname > p {
+/* .surname > p {
     position: absolute;
     width: 110px;
     height: 29px;
     left: 150px;
-    top: 305px;
+    top: 305px; */
     /* background-color: #dedbda; */
-    font-family: 'Inter';
+    /* font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 29px; */
     /* identical to box height */
 
 
-    color: #000000;
-}
-
+    /* color: #000000;
+} */
+/* 
 .nazwisko_input {
     position: absolute;
     width: 262px;
@@ -93,9 +93,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 29px;
-    /* identical to box height */
-
 
     color: #000000;
 }
@@ -165,4 +162,47 @@
         background-color: white;
         color: black;
     }
+} */
+
+input{
+    width: 197px;
+    height: 41px;
+    background-color: #dedbda;
+    border-radius: 20px;
+    text-align: center;
+}
+
+p{
+    color:#012023;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.reg {
+    width: 300px;
+    height: 60px;
+    background: #002f34;
+    border-radius: 20px;
+    color: white;
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.reg:hover {
+    animation-name: animacjaRej;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animacjaRej {
+from {
+    background-color: #002f34;
+    color: white;
+}
+
+to {
+    background-color: white;
+    color: black;
+}
 }

@@ -67,6 +67,16 @@ h1 {
         animation-fill-mode: forwards;
     }
 
+.add__button {
+    border: none;
+    width: 120px;
+    height: 30px;
+    margin-left: 20px;
+    background-color: #f2f4f5;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
 .log__button {
     border: none;
     width: 120px;

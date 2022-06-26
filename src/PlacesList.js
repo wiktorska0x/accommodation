@@ -1,4 +1,4 @@
-const PlacesList = ({ mieszkania }) => {
+const PlacesList = ({ mieszkania, handleDelete }) => {
 
     return (
         <div className="places-list">
@@ -7,7 +7,7 @@ const PlacesList = ({ mieszkania }) => {
                     <img src={mieszkanie.img} alt="img" className="photo"></img>
                     <h2>{mieszkanie.tytul}</h2>
                     <p>{mieszkanie.cena} zł / doba</p>
-                    {/* <button onClick={() => handleDelete(mieszkanie.id)}>delete this</button> */}
+                    {/* <button className="hd--button" onClick={() => handleDelete(mieszkanie.id)}>Zarezerwuj</button> */}
                 </div>
             ))}
         </div>

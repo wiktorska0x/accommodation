@@ -1,10 +1,16 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, setValue } from 'react';
 import PlacesList from './PlacesList';
 import './Home.css'
 
 const Home = () => {
 
     const [mieszkania, setPlaces] = useState(null);
+    // const [value, setValue] = useState("");
+
+    const handleDelete = (id) => {
+        const newPlaces = mieszkania.filter(mieszkanie => mieszkanie.id !== id);
+        setPlaces(newPlaces);
+    }
 
 
     useEffect(() => {
@@ -20,7 +26,7 @@ const Home = () => {
 
     return ( 
         <div className="home">
-            {mieszkania && <PlacesList mieszkania={mieszkania} />}
+            {mieszkania && <PlacesList mieszkania={mieszkania} handleDelete={handleDelete} />}
         </div>
     );
 }

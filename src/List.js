@@ -10,12 +10,13 @@ function List(props) {
         }
         //zwraca elementy powiazane z inputem
         else {
-            return el.lokalizacja.toLowerCase().includes(props.input)
+            return el.lokalizacja.toLowerCase().includes(props.input) 
         }
     })
     
     return (
-
+        <div>
+            <h1>Dostępne miejsca pobytu</h1>
         <div className="places-list">
         {filteredData.map((item) => (
             <div key={item.id}>
@@ -24,6 +25,7 @@ function List(props) {
                 <p>{item.lokalizacja} <i>{item.cena} zł / doba</i></p>
             </div>
         ))}
+        </div>
         </div>
     )
 }

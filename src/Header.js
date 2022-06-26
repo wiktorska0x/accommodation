@@ -14,6 +14,9 @@ function Header() {
     const search = () => {
         history.push("/Search")
     }
+    const add = () => {
+        history.push("/Add")
+    }
 
     return (
 
@@ -32,7 +35,7 @@ function Header() {
             </div>
 
             <div className='header__right'>
-                <p>Korzystaj ze wszystkich możliwości</p>
+                <button className='add__button' onClick={add}>Zostań hostem</button>
                 <button className='log__button' onClick={rejestracja}>Dołącz Do Nas</button>
             </div>
         </div>

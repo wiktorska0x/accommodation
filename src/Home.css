@@ -16,3 +16,12 @@
 		margin: 10px;
 	}
 	
+	.hd--button{
+		border-radius: 15px;
+		width: 20vh;
+		border-color: black;
+		background-color: white;
+		color: black;
+		font-weight: bold;
+		margin-bottom: 15px;
+	}

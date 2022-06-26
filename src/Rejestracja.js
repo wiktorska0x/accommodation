@@ -40,7 +40,9 @@ function Rejestracja() {
 
     return (
         <div className='front'>
-
+            <p><h1>Zostań użytkownikiem i dołącz do społeczności Accommodation!</h1></p>
+            <p><h2>Zarejestruj się i wybieraj mieszkania, które chciałbyś wynajmować.</h2></p>
+            
             <div className='reg__blok'>
                 <form onSubmit={(e) => submit(e)}>
 

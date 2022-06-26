@@ -1,0 +1,42 @@
+input{
+    width: 197px;
+    height: 41px;
+    background-color: #dedbda;
+    border-radius: 20px;
+    text-align: center;
+}
+
+p{
+    color:#012023;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.add {
+    width: 300px;
+    height: 60px;
+    background: #002f34;
+    border-radius: 20px;
+    color: white;
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.add:hover {
+    animation-name: animacjaRej;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animacjaRej {
+from {
+    background-color: #002f34;
+    color: white;
+}
+
+to {
+    background-color: white;
+    color: black;
+}
+}

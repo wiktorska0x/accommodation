@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Home from './Home';
 import Rejestracja from './Rejestracja';
 import Search from './Search';
+import Add from './Add';
 import {
   BrowserRouter as Router,
   Switch,
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/Rejestracja" component={Rejestracja} />
           <Route exact path="/Search" component={Search} />
+          <Route exact path="/Add" component={Add} />
         </Switch>
       </Router>
       {/* <Footer /> */}
